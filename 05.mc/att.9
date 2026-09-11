@@ -1,0 +1,25 @@
+programa {
+
+  funcao inicio() {
+
+    real distancia, minutos, kmh, ms
+
+    escreva("Distância em km: ")
+
+    leia(distancia)
+
+    escreva("Tempo em minutos: ")
+
+    leia(minutos)
+
+    kmh = distancia / (minutos / 60)
+
+    ms = (distancia * 1000) / (minutos * 60)
+
+    escreva("Velocidade média: ", kmh, " km/h\n")
+
+    escreva("Velocidade média: ", ms, " m/s")
+
+  }
+
+}

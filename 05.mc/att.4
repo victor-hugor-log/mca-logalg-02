@@ -1,0 +1,27 @@
+programa {
+
+  funcao inicio() {
+
+    inteiro paineis
+
+    real preco, energia, economia
+
+    escreva("Quantidade de painéis: ")
+
+    leia(paineis)
+
+    escreva("Preço do kWh: R$ ")
+
+    leia(preco)
+
+    energia = paineis * 1.2 * 30
+
+    economia = energia * preco
+
+    escreva("Geração em 30 dias: ", energia, " kWh\n")
+
+    escreva("Economia: R$ ", economia)
+
+  }
+
+}

@@ -1,0 +1,26 @@
+programa {
+
+  funcao inicio() {
+
+    inteiro moedas, exploradores, cada, sobra
+
+    escreva("Total de moedas: ")
+
+    leia(moedas)
+
+    escreva("Número de exploradores: ")
+
+    leia(exploradores)
+
+    cada = moedas / exploradores
+
+    sobra = moedas % exploradores
+
+    escreva("Cada explorador recebe: ", cada, "\n")
+
+    escreva("Moedas que sobraram para o líder: ", sobra)
+
+  }
+
+}
+
